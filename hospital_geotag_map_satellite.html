@@ -1,0 +1,1802 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_98ecf9ef918ab5e51e61d539ac4d30cc {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_98ecf9ef918ab5e51e61d539ac4d30cc" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_98ecf9ef918ab5e51e61d539ac4d30cc = L.map(
+                "map_98ecf9ef918ab5e51e61d539ac4d30cc",
+                {
+                    center: [37.0902, -95.7129],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 5,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_2e4f0749be9d7f3ceea9cf1153cff2fe = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 20,
+  "maxNativeZoom": 20,
+  "noWrap": false,
+  "attribution": "Map tiles by CartoDB, under CC BY 3.0. Data by OpenStreetMap, under ODbL.",
+  "subdomains": "abcd",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_2e4f0749be9d7f3ceea9cf1153cff2fe.addTo(map_98ecf9ef918ab5e51e61d539ac4d30cc);
+        
+    
+            var circle_marker_e3d0a10e86342994046b489c7b75c529 = L.circleMarker(
+                [61.19804169172932, -149.8204031932331],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_98ecf9ef918ab5e51e61d539ac4d30cc);
+        
+    
+        var popup_8befc4cd19298076c9dc34dcc766225c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5c471216166118b2fd586dd887db3f14 = $(`<div id="html_5c471216166118b2fd586dd887db3f14" style="width: 100.0%; height: 100.0%;">PROVIDENCE ALASKA MEDICAL CENTER<br>Rating: 3.0</div>`)[0];
+                popup_8befc4cd19298076c9dc34dcc766225c.setContent(html_5c471216166118b2fd586dd887db3f14);
+            
+        
+
+        circle_marker_e3d0a10e86342994046b489c7b75c529.bindPopup(popup_8befc4cd19298076c9dc34dcc766225c)
+        ;
+
+        
+    
+    
+            circle_marker_e3d0a10e86342994046b489c7b75c529.bindTooltip(
+                `<div>
+                     PROVIDENCE ALASKA MEDICAL CENTER
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_1dab33b6f580f6dae1b1b4f418e875f6 = L.circleMarker(
+                [31.18591455186615, -85.40003612303732],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_98ecf9ef918ab5e51e61d539ac4d30cc);
+        
+    
+        var popup_c4049249abd170660b544c31f6507ef9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ce3e51aed8c8817510cf9b69d74fe143 = $(`<div id="html_ce3e51aed8c8817510cf9b69d74fe143" style="width: 100.0%; height: 100.0%;">SOUTHEAST ALABAMA MEDICAL CENTER<br>Rating: 3.0</div>`)[0];
+                popup_c4049249abd170660b544c31f6507ef9.setContent(html_ce3e51aed8c8817510cf9b69d74fe143);
+            
+        
+
+        circle_marker_1dab33b6f580f6dae1b1b4f418e875f6.bindPopup(popup_c4049249abd170660b544c31f6507ef9)
+        ;
+
+        
+    
+    
+            circle_marker_1dab33b6f580f6dae1b1b4f418e875f6.bindTooltip(
+                `<div>
+                     SOUTHEAST ALABAMA MEDICAL CENTER
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_d46c1afad5a990cfec195d956123c9f1 = L.circleMarker(
+                [36.181472084227714, -94.52130614735185],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_98ecf9ef918ab5e51e61d539ac4d30cc);
+        
+    
+        var popup_f10f60ec94ef8700bb354b11accbd4d6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1e08eac217922c6f9ba03538117fbe6e = $(`<div id="html_1e08eac217922c6f9ba03538117fbe6e" style="width: 100.0%; height: 100.0%;">SILOAM SPRINGS REGIONAL HOSPITAL<br>Rating: 3.0</div>`)[0];
+                popup_f10f60ec94ef8700bb354b11accbd4d6.setContent(html_1e08eac217922c6f9ba03538117fbe6e);
+            
+        
+
+        circle_marker_d46c1afad5a990cfec195d956123c9f1.bindPopup(popup_f10f60ec94ef8700bb354b11accbd4d6)
+        ;
+
+        
+    
+    
+            circle_marker_d46c1afad5a990cfec195d956123c9f1.bindTooltip(
+                `<div>
+                     SILOAM SPRINGS REGIONAL HOSPITAL
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_80410a04d9a4b72b0f1ace56a6bb52ba = L.circleMarker(
+                [33.49340842744485, -112.16989681796181],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_98ecf9ef918ab5e51e61d539ac4d30cc);
+        
+    
+        var popup_91d5b80345107efefc585a1b2a28e9c1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bcfefb524fc3644107517f80548b0c52 = $(`<div id="html_bcfefb524fc3644107517f80548b0c52" style="width: 100.0%; height: 100.0%;">ABRAZO MARYVALE CAMPUS<br>Rating: 2.0</div>`)[0];
+                popup_91d5b80345107efefc585a1b2a28e9c1.setContent(html_bcfefb524fc3644107517f80548b0c52);
+            
+        
+
+        circle_marker_80410a04d9a4b72b0f1ace56a6bb52ba.bindPopup(popup_91d5b80345107efefc585a1b2a28e9c1)
+        ;
+
+        
+    
+    
+            circle_marker_80410a04d9a4b72b0f1ace56a6bb52ba.bindTooltip(
+                `<div>
+                     ABRAZO MARYVALE CAMPUS
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_9ff9db0df650f37b502aaf691e2706b0 = L.circleMarker(
+                [37.64133263577982, -122.1133886559633],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_98ecf9ef918ab5e51e61d539ac4d30cc);
+        
+    
+        var popup_8a4f223a29f2e4e60c4e64344aa9d7bf = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_60768fe0f49fa2dfa3e297ed9a76e1ae = $(`<div id="html_60768fe0f49fa2dfa3e297ed9a76e1ae" style="width: 100.0%; height: 100.0%;">ST ROSE HOSPITAL<br>Rating: 1.0</div>`)[0];
+                popup_8a4f223a29f2e4e60c4e64344aa9d7bf.setContent(html_60768fe0f49fa2dfa3e297ed9a76e1ae);
+            
+        
+
+        circle_marker_9ff9db0df650f37b502aaf691e2706b0.bindPopup(popup_8a4f223a29f2e4e60c4e64344aa9d7bf)
+        ;
+
+        
+    
+    
+            circle_marker_9ff9db0df650f37b502aaf691e2706b0.bindTooltip(
+                `<div>
+                     ST ROSE HOSPITAL
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_d3c75d13ecd5b2f4fa55fce6f2f94a6f = L.circleMarker(
+                [40.410744332686086, -104.6956580579288],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_98ecf9ef918ab5e51e61d539ac4d30cc);
+        
+    
+        var popup_5b6b805774d38b6d3b3628f8c77e55fe = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_aaa9861e4c1aca253bdc7b771683a0dc = $(`<div id="html_aaa9861e4c1aca253bdc7b771683a0dc" style="width: 100.0%; height: 100.0%;">NORTH COLORADO MEDICAL CENTER<br>Rating: 4.0</div>`)[0];
+                popup_5b6b805774d38b6d3b3628f8c77e55fe.setContent(html_aaa9861e4c1aca253bdc7b771683a0dc);
+            
+        
+
+        circle_marker_d3c75d13ecd5b2f4fa55fce6f2f94a6f.bindPopup(popup_5b6b805774d38b6d3b3628f8c77e55fe)
+        ;
+
+        
+    
+    
+            circle_marker_d3c75d13ecd5b2f4fa55fce6f2f94a6f.bindTooltip(
+                `<div>
+                     NORTH COLORADO MEDICAL CENTER
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_f5726142efdc8e1f52e9c1d2a3230694 = L.circleMarker(
+                [38.80493977283994, -77.36234737151072],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_98ecf9ef918ab5e51e61d539ac4d30cc);
+        
+    
+        var popup_020253ebbc1fd0e65024e824c0f6a4e0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_332aa6f36ff865a95dc82644bce248f6 = $(`<div id="html_332aa6f36ff865a95dc82644bce248f6" style="width: 100.0%; height: 100.0%;">ST FRANCIS HOSPITAL & MEDICAL CENTER<br>Rating: 3.0</div>`)[0];
+                popup_020253ebbc1fd0e65024e824c0f6a4e0.setContent(html_332aa6f36ff865a95dc82644bce248f6);
+            
+        
+
+        circle_marker_f5726142efdc8e1f52e9c1d2a3230694.bindPopup(popup_020253ebbc1fd0e65024e824c0f6a4e0)
+        ;
+
+        
+    
+    
+            circle_marker_f5726142efdc8e1f52e9c1d2a3230694.bindTooltip(
+                `<div>
+                     ST FRANCIS HOSPITAL & MEDICAL CENTER
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_46141ce43830c38c3228f259c7509d17 = L.circleMarker(
+                [38.900765814685315, -77.0495446513986],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_98ecf9ef918ab5e51e61d539ac4d30cc);
+        
+    
+        var popup_5e98ef71b9d025f76d70467245593879 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_130e3106bbd4c6d1494c2ccceccba474 = $(`<div id="html_130e3106bbd4c6d1494c2ccceccba474" style="width: 100.0%; height: 100.0%;">GEORGE WASHINGTON UNIV HOSPITAL<br>Rating: 1.0</div>`)[0];
+                popup_5e98ef71b9d025f76d70467245593879.setContent(html_130e3106bbd4c6d1494c2ccceccba474);
+            
+        
+
+        circle_marker_46141ce43830c38c3228f259c7509d17.bindPopup(popup_5e98ef71b9d025f76d70467245593879)
+        ;
+
+        
+    
+    
+            circle_marker_46141ce43830c38c3228f259c7509d17.bindTooltip(
+                `<div>
+                     GEORGE WASHINGTON UNIV HOSPITAL
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_2b38da135da186a5764d8d117ddb5cd6 = L.circleMarker(
+                [33.532005, 131.3496745],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_98ecf9ef918ab5e51e61d539ac4d30cc);
+        
+    
+        var popup_7e5d33db1c62990555f9b53b42cb074b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_29673071ebfaafba4b1e9d7c52136bc7 = $(`<div id="html_29673071ebfaafba4b1e9d7c52136bc7" style="width: 100.0%; height: 100.0%;">CHRISTIANA CARE HEALTH SERVICES, INC.<br>Rating: 4.0</div>`)[0];
+                popup_7e5d33db1c62990555f9b53b42cb074b.setContent(html_29673071ebfaafba4b1e9d7c52136bc7);
+            
+        
+
+        circle_marker_2b38da135da186a5764d8d117ddb5cd6.bindPopup(popup_7e5d33db1c62990555f9b53b42cb074b)
+        ;
+
+        
+    
+    
+            circle_marker_2b38da135da186a5764d8d117ddb5cd6.bindTooltip(
+                `<div>
+                     CHRISTIANA CARE HEALTH SERVICES, INC.
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_43205ee7ce26573f9c7577365388f9f6 = L.circleMarker(
+                [30.36949578333333, -81.69890751428572],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_98ecf9ef918ab5e51e61d539ac4d30cc);
+        
+    
+        var popup_038d6850860f8b063794c82dd4b2ad37 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0f358d79ac4f92722dde2cfb90d65b8e = $(`<div id="html_0f358d79ac4f92722dde2cfb90d65b8e" style="width: 100.0%; height: 100.0%;">UF HEALTH JACKSONVILLE<br>Rating: 1.0</div>`)[0];
+                popup_038d6850860f8b063794c82dd4b2ad37.setContent(html_0f358d79ac4f92722dde2cfb90d65b8e);
+            
+        
+
+        circle_marker_43205ee7ce26573f9c7577365388f9f6.bindPopup(popup_038d6850860f8b063794c82dd4b2ad37)
+        ;
+
+        
+    
+    
+            circle_marker_43205ee7ce26573f9c7577365388f9f6.bindTooltip(
+                `<div>
+                     UF HEALTH JACKSONVILLE
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_4056abe6723694cd3afa19d48da5d754 = L.circleMarker(
+                [34.763250189755354, -84.98565303486238],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_98ecf9ef918ab5e51e61d539ac4d30cc);
+        
+    
+        var popup_caab2abb2490a745a2f12e4e3206675d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_33d5bf4eb93ce151b2361a1e941b9153 = $(`<div id="html_33d5bf4eb93ce151b2361a1e941b9153" style="width: 100.0%; height: 100.0%;">HAMILTON MEDICAL CENTER<br>Rating: 4.0</div>`)[0];
+                popup_caab2abb2490a745a2f12e4e3206675d.setContent(html_33d5bf4eb93ce151b2361a1e941b9153);
+            
+        
+
+        circle_marker_4056abe6723694cd3afa19d48da5d754.bindPopup(popup_caab2abb2490a745a2f12e4e3206675d)
+        ;
+
+        
+    
+    
+            circle_marker_4056abe6723694cd3afa19d48da5d754.bindTooltip(
+                `<div>
+                     HAMILTON MEDICAL CENTER
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_fa94cc3257bb00ed5af00ae1b67158c4 = L.circleMarker(
+                [21.304906889090912, -157.8558439189091],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_98ecf9ef918ab5e51e61d539ac4d30cc);
+        
+    
+        var popup_5100e1871b17e1d61717d06bef43bf39 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_47b19e1b4d0f73fbc8929193e59149f5 = $(`<div id="html_47b19e1b4d0f73fbc8929193e59149f5" style="width: 100.0%; height: 100.0%;">THE QUEENS MEDICAL CENTER<br>Rating: 4.0</div>`)[0];
+                popup_5100e1871b17e1d61717d06bef43bf39.setContent(html_47b19e1b4d0f73fbc8929193e59149f5);
+            
+        
+
+        circle_marker_fa94cc3257bb00ed5af00ae1b67158c4.bindPopup(popup_5100e1871b17e1d61717d06bef43bf39)
+        ;
+
+        
+    
+    
+            circle_marker_fa94cc3257bb00ed5af00ae1b67158c4.bindTooltip(
+                `<div>
+                     THE QUEENS MEDICAL CENTER
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_71d36b702fd9487ce20d3ee7f0fa7325 = L.circleMarker(
+                [42.036455184624145, -92.91361141981777],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_98ecf9ef918ab5e51e61d539ac4d30cc);
+        
+    
+        var popup_498ad1a8478ff6f672dcbf73e183c573 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_714c7682fead64f7525c3fdcd1210748 = $(`<div id="html_714c7682fead64f7525c3fdcd1210748" style="width: 100.0%; height: 100.0%;">CENTRAL IOWA HEALTHCARE<br>Rating: 3.0</div>`)[0];
+                popup_498ad1a8478ff6f672dcbf73e183c573.setContent(html_714c7682fead64f7525c3fdcd1210748);
+            
+        
+
+        circle_marker_71d36b702fd9487ce20d3ee7f0fa7325.bindPopup(popup_498ad1a8478ff6f672dcbf73e183c573)
+        ;
+
+        
+    
+    
+            circle_marker_71d36b702fd9487ce20d3ee7f0fa7325.bindTooltip(
+                `<div>
+                     CENTRAL IOWA HEALTHCARE
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_7daa7caec9f35b537a40e62c9c8c7fd4 = L.circleMarker(
+                [42.564211492875984, -114.46002010554089],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_98ecf9ef918ab5e51e61d539ac4d30cc);
+        
+    
+        var popup_ac14e0effb573310cf269b3cbfc0aa08 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a5fe2177543e4c17d4cff6413eecfcea = $(`<div id="html_a5fe2177543e4c17d4cff6413eecfcea" style="width: 100.0%; height: 100.0%;">ST LUKE'S MAGIC VALLEY RMC<br>Rating: 3.0</div>`)[0];
+                popup_ac14e0effb573310cf269b3cbfc0aa08.setContent(html_a5fe2177543e4c17d4cff6413eecfcea);
+            
+        
+
+        circle_marker_7daa7caec9f35b537a40e62c9c8c7fd4.bindPopup(popup_ac14e0effb573310cf269b3cbfc0aa08)
+        ;
+
+        
+    
+    
+            circle_marker_7daa7caec9f35b537a40e62c9c8c7fd4.bindTooltip(
+                `<div>
+                     ST LUKE'S MAGIC VALLEY RMC
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_e30ba05a001047717356646b5643a1fd = L.circleMarker(
+                [40.55540939193206, -90.02992704819533],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_98ecf9ef918ab5e51e61d539ac4d30cc);
+        
+    
+        var popup_7b880cb5f9f9646d368cfff2abf241b8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d934f2f1d090807c4dbde13d8e459cb1 = $(`<div id="html_d934f2f1d090807c4dbde13d8e459cb1" style="width: 100.0%; height: 100.0%;">GRAHAM HOSPITAL ASSOCIATION<br>Rating: 3.0</div>`)[0];
+                popup_7b880cb5f9f9646d368cfff2abf241b8.setContent(html_d934f2f1d090807c4dbde13d8e459cb1);
+            
+        
+
+        circle_marker_e30ba05a001047717356646b5643a1fd.bindPopup(popup_7b880cb5f9f9646d368cfff2abf241b8)
+        ;
+
+        
+    
+    
+            circle_marker_e30ba05a001047717356646b5643a1fd.bindTooltip(
+                `<div>
+                     GRAHAM HOSPITAL ASSOCIATION
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_6540359c18f0f2a2a329072ae9f2e01a = L.circleMarker(
+                [39.485331179022985, -86.05501297873563],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_98ecf9ef918ab5e51e61d539ac4d30cc);
+        
+    
+        var popup_8a60990027bcaddace29a92a75607476 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8c8662042e49deebde445035ebfd3aa7 = $(`<div id="html_8c8662042e49deebde445035ebfd3aa7" style="width: 100.0%; height: 100.0%;">JOHNSON MEMORIAL HOSPITAL<br>Rating: 4.0</div>`)[0];
+                popup_8a60990027bcaddace29a92a75607476.setContent(html_8c8662042e49deebde445035ebfd3aa7);
+            
+        
+
+        circle_marker_6540359c18f0f2a2a329072ae9f2e01a.bindPopup(popup_8a60990027bcaddace29a92a75607476)
+        ;
+
+        
+    
+    
+            circle_marker_6540359c18f0f2a2a329072ae9f2e01a.bindTooltip(
+                `<div>
+                     JOHNSON MEMORIAL HOSPITAL
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_490a12a5717a1a5ea856f52482b700e7 = L.circleMarker(
+                [37.40560870603291, -94.70601808043875],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_98ecf9ef918ab5e51e61d539ac4d30cc);
+        
+    
+        var popup_1dc40e9fd49864e8ffa79182bf16ccf6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_929c6e4de58bb3f6fffe0f12b53d730c = $(`<div id="html_929c6e4de58bb3f6fffe0f12b53d730c" style="width: 100.0%; height: 100.0%;">VIA CHRISTI HOSPITAL PITTSBURG INC<br>Rating: 3.0</div>`)[0];
+                popup_1dc40e9fd49864e8ffa79182bf16ccf6.setContent(html_929c6e4de58bb3f6fffe0f12b53d730c);
+            
+        
+
+        circle_marker_490a12a5717a1a5ea856f52482b700e7.bindPopup(popup_1dc40e9fd49864e8ffa79182bf16ccf6)
+        ;
+
+        
+    
+    
+            circle_marker_490a12a5717a1a5ea856f52482b700e7.bindTooltip(
+                `<div>
+                     VIA CHRISTI HOSPITAL PITTSBURG INC
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_5e423726472bd71db544e289f1fd063a = L.circleMarker(
+                [39.0970417909621, -84.45237012915452],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_98ecf9ef918ab5e51e61d539ac4d30cc);
+        
+    
+        var popup_04d9cbe18794012f3980bbe0df84ebda = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7f49e76dc3f0210ffe169fdfeafebb4f = $(`<div id="html_7f49e76dc3f0210ffe169fdfeafebb4f" style="width: 100.0%; height: 100.0%;">ST ELIZABETH FT THOMAS<br>Rating: 4.0</div>`)[0];
+                popup_04d9cbe18794012f3980bbe0df84ebda.setContent(html_7f49e76dc3f0210ffe169fdfeafebb4f);
+            
+        
+
+        circle_marker_5e423726472bd71db544e289f1fd063a.bindPopup(popup_04d9cbe18794012f3980bbe0df84ebda)
+        ;
+
+        
+    
+    
+            circle_marker_5e423726472bd71db544e289f1fd063a.bindTooltip(
+                `<div>
+                     ST ELIZABETH FT THOMAS
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_0f783574432d8cda3af3f08b81db7f14 = L.circleMarker(
+                [30.179186903317536, -92.05573221232227],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_98ecf9ef918ab5e51e61d539ac4d30cc);
+        
+    
+        var popup_9c636484c21edbc29a35a847c6da24d4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b6828278abdf7fd9c094d2eee38fc569 = $(`<div id="html_b6828278abdf7fd9c094d2eee38fc569" style="width: 100.0%; height: 100.0%;">LAFAYETTE GENERAL MEDICAL CENTER<br>Rating: 3.0</div>`)[0];
+                popup_9c636484c21edbc29a35a847c6da24d4.setContent(html_b6828278abdf7fd9c094d2eee38fc569);
+            
+        
+
+        circle_marker_0f783574432d8cda3af3f08b81db7f14.bindPopup(popup_9c636484c21edbc29a35a847c6da24d4)
+        ;
+
+        
+    
+    
+            circle_marker_0f783574432d8cda3af3f08b81db7f14.bindTooltip(
+                `<div>
+                     LAFAYETTE GENERAL MEDICAL CENTER
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_bb48caa8501a00db29ad5792711c708c = L.circleMarker(
+                [36.006641778002596, -75.67740181138701],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_98ecf9ef918ab5e51e61d539ac4d30cc);
+        
+    
+        var popup_683b3f84e7c96cf404e9539f23d9fbfc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9e7a5ae53225060de4e256a0ded40069 = $(`<div id="html_9e7a5ae53225060de4e256a0ded40069" style="width: 100.0%; height: 100.0%;">HEALTHALLIANCE HOSPITALS, INC<br>Rating: 3.0</div>`)[0];
+                popup_683b3f84e7c96cf404e9539f23d9fbfc.setContent(html_9e7a5ae53225060de4e256a0ded40069);
+            
+        
+
+        circle_marker_bb48caa8501a00db29ad5792711c708c.bindPopup(popup_683b3f84e7c96cf404e9539f23d9fbfc)
+        ;
+
+        
+    
+    
+            circle_marker_bb48caa8501a00db29ad5792711c708c.bindTooltip(
+                `<div>
+                     HEALTHALLIANCE HOSPITALS, INC
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_82804f0098d785c2e967a32f7c06fa6f = L.circleMarker(
+                [39.66553386873016, -77.68800480269842],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_98ecf9ef918ab5e51e61d539ac4d30cc);
+        
+    
+        var popup_1b5c1ce961559447141d0285bd8a67dd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_129b86f9ea20f869437b1a0224c1f3a6 = $(`<div id="html_129b86f9ea20f869437b1a0224c1f3a6" style="width: 100.0%; height: 100.0%;">MERITUS MEDICAL CENTER<br>Rating: 3.059153350154191</div>`)[0];
+                popup_1b5c1ce961559447141d0285bd8a67dd.setContent(html_129b86f9ea20f869437b1a0224c1f3a6);
+            
+        
+
+        circle_marker_82804f0098d785c2e967a32f7c06fa6f.bindPopup(popup_1b5c1ce961559447141d0285bd8a67dd)
+        ;
+
+        
+    
+    
+            circle_marker_82804f0098d785c2e967a32f7c06fa6f.bindTooltip(
+                `<div>
+                     MERITUS MEDICAL CENTER
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_f8065f536ae8532df54c8c581aabe316 = L.circleMarker(
+                [41.7981956, -87.7454452],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_98ecf9ef918ab5e51e61d539ac4d30cc);
+        
+    
+        var popup_93dda31f85c93379e425f8f23505c00d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_308fd2e6b061f885f2ee125fdb1c49ca = $(`<div id="html_308fd2e6b061f885f2ee125fdb1c49ca" style="width: 100.0%; height: 100.0%;">ST JOSEPH HOSPITAL<br>Rating: 4.0</div>`)[0];
+                popup_93dda31f85c93379e425f8f23505c00d.setContent(html_308fd2e6b061f885f2ee125fdb1c49ca);
+            
+        
+
+        circle_marker_f8065f536ae8532df54c8c581aabe316.bindPopup(popup_93dda31f85c93379e425f8f23505c00d)
+        ;
+
+        
+    
+    
+            circle_marker_f8065f536ae8532df54c8c581aabe316.bindTooltip(
+                `<div>
+                     ST JOSEPH HOSPITAL
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_a4656723e65506b053f43c19a26955cc = L.circleMarker(
+                [42.39486572260442, -83.37357210601965],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_98ecf9ef918ab5e51e61d539ac4d30cc);
+        
+    
+        var popup_484e865fee2c720691410352cace6ba4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4a4bb1f5706e9e4ffada4736b061116d = $(`<div id="html_4a4bb1f5706e9e4ffada4736b061116d" style="width: 100.0%; height: 100.0%;">ST MARY MERCY HOSPITAL<br>Rating: 3.0</div>`)[0];
+                popup_484e865fee2c720691410352cace6ba4.setContent(html_4a4bb1f5706e9e4ffada4736b061116d);
+            
+        
+
+        circle_marker_a4656723e65506b053f43c19a26955cc.bindPopup(popup_484e865fee2c720691410352cace6ba4)
+        ;
+
+        
+    
+    
+            circle_marker_a4656723e65506b053f43c19a26955cc.bindTooltip(
+                `<div>
+                     ST MARY MERCY HOSPITAL
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_4911ffa830707ea14e1104a77428d766 = L.circleMarker(
+                [45.00833843995037, -93.33614606104217],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_98ecf9ef918ab5e51e61d539ac4d30cc);
+        
+    
+        var popup_234b024267bae6c475483cf01267ab55 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_79c4547bf10ebc4d3b4caeed39ddbbc3 = $(`<div id="html_79c4547bf10ebc4d3b4caeed39ddbbc3" style="width: 100.0%; height: 100.0%;">NORTH MEMORIAL MEDICAL CENTER<br>Rating: 3.0</div>`)[0];
+                popup_234b024267bae6c475483cf01267ab55.setContent(html_79c4547bf10ebc4d3b4caeed39ddbbc3);
+            
+        
+
+        circle_marker_4911ffa830707ea14e1104a77428d766.bindPopup(popup_234b024267bae6c475483cf01267ab55)
+        ;
+
+        
+    
+    
+            circle_marker_4911ffa830707ea14e1104a77428d766.bindTooltip(
+                `<div>
+                     NORTH MEMORIAL MEDICAL CENTER
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_2eec296df77b7b8ecdc0c6451c61d227 = L.circleMarker(
+                [37.044553585974306, -94.5106763859743],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_98ecf9ef918ab5e51e61d539ac4d30cc);
+        
+    
+        var popup_327043ce548138c834bcee4d08538440 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e21a12902cfe11656d3de03084b88d37 = $(`<div id="html_e21a12902cfe11656d3de03084b88d37" style="width: 100.0%; height: 100.0%;">MERCY HOSPITAL JOPLIN<br>Rating: 3.0</div>`)[0];
+                popup_327043ce548138c834bcee4d08538440.setContent(html_e21a12902cfe11656d3de03084b88d37);
+            
+        
+
+        circle_marker_2eec296df77b7b8ecdc0c6451c61d227.bindPopup(popup_327043ce548138c834bcee4d08538440)
+        ;
+
+        
+    
+    
+            circle_marker_2eec296df77b7b8ecdc0c6451c61d227.bindTooltip(
+                `<div>
+                     MERCY HOSPITAL JOPLIN
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_aa9a0a5527c05cc7cfeda49901d479a4 = L.circleMarker(
+                [32.33468579731544, -90.16659376241611],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_98ecf9ef918ab5e51e61d539ac4d30cc);
+        
+    
+        var popup_0d5ca617a7c73161235f5fca5a58e130 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bd2ed857ccc34360d83aae3abd17110d = $(`<div id="html_bd2ed857ccc34360d83aae3abd17110d" style="width: 100.0%; height: 100.0%;">UNIVERSITY OF MISSISSIPPI MED CENTER<br>Rating: 1.0</div>`)[0];
+                popup_0d5ca617a7c73161235f5fca5a58e130.setContent(html_bd2ed857ccc34360d83aae3abd17110d);
+            
+        
+
+        circle_marker_aa9a0a5527c05cc7cfeda49901d479a4.bindPopup(popup_0d5ca617a7c73161235f5fca5a58e130)
+        ;
+
+        
+    
+    
+            circle_marker_aa9a0a5527c05cc7cfeda49901d479a4.bindTooltip(
+                `<div>
+                     UNIVERSITY OF MISSISSIPPI MED CENTER
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_79c02132747f4fdf9273211facd3895b = L.circleMarker(
+                [46.589691599653975, -112.04308254567474],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_98ecf9ef918ab5e51e61d539ac4d30cc);
+        
+    
+        var popup_ad128ad879f0d9ecd0d520c88f0ee218 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_02874468240409a55b2b4e8b24de4030 = $(`<div id="html_02874468240409a55b2b4e8b24de4030" style="width: 100.0%; height: 100.0%;">ST PETER'S HOSPITAL<br>Rating: 3.0</div>`)[0];
+                popup_ad128ad879f0d9ecd0d520c88f0ee218.setContent(html_02874468240409a55b2b4e8b24de4030);
+            
+        
+
+        circle_marker_79c02132747f4fdf9273211facd3895b.bindPopup(popup_ad128ad879f0d9ecd0d520c88f0ee218)
+        ;
+
+        
+    
+    
+            circle_marker_79c02132747f4fdf9273211facd3895b.bindTooltip(
+                `<div>
+                     ST PETER'S HOSPITAL
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_e6c8528f8cd5270e99c2f5903b606355 = L.circleMarker(
+                [35.390767466642544, -80.56248424059334],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_98ecf9ef918ab5e51e61d539ac4d30cc);
+        
+    
+        var popup_93f72cf38f3d18950c949019d039099c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6da067d869d3c905c01593ecf620691c = $(`<div id="html_6da067d869d3c905c01593ecf620691c" style="width: 100.0%; height: 100.0%;">CAROLINAS HEALTHCARE SYSTEM NORTHEAST<br>Rating: 3.0</div>`)[0];
+                popup_93f72cf38f3d18950c949019d039099c.setContent(html_6da067d869d3c905c01593ecf620691c);
+            
+        
+
+        circle_marker_e6c8528f8cd5270e99c2f5903b606355.bindPopup(popup_93f72cf38f3d18950c949019d039099c)
+        ;
+
+        
+    
+    
+            circle_marker_e6c8528f8cd5270e99c2f5903b606355.bindTooltip(
+                `<div>
+                     CAROLINAS HEALTHCARE SYSTEM NORTHEAST
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_34abad3b0fd97b1503996d85452c175e = L.circleMarker(
+                [46.81851920987654, -100.77322946296296],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_98ecf9ef918ab5e51e61d539ac4d30cc);
+        
+    
+        var popup_94961d77c2d06bb5a5254f5b58b05ace = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_23063ef76694fcc226682892fc64870d = $(`<div id="html_23063ef76694fcc226682892fc64870d" style="width: 100.0%; height: 100.0%;">CHI ST ALEXIUS HEALTH BISMARCK<br>Rating: 4.0</div>`)[0];
+                popup_94961d77c2d06bb5a5254f5b58b05ace.setContent(html_23063ef76694fcc226682892fc64870d);
+            
+        
+
+        circle_marker_34abad3b0fd97b1503996d85452c175e.bindPopup(popup_94961d77c2d06bb5a5254f5b58b05ace)
+        ;
+
+        
+    
+    
+            circle_marker_34abad3b0fd97b1503996d85452c175e.bindTooltip(
+                `<div>
+                     CHI ST ALEXIUS HEALTH BISMARCK
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_23910a66472aed3ffcab514322de0f50 = L.circleMarker(
+                [40.78270932339483, -96.64321326826568],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_98ecf9ef918ab5e51e61d539ac4d30cc);
+        
+    
+        var popup_09da31c7ad47edbc8f6452472d583852 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_402a11dfe12c24cdf67bc8b53f909a1d = $(`<div id="html_402a11dfe12c24cdf67bc8b53f909a1d" style="width: 100.0%; height: 100.0%;">BRYAN MEDICAL CENTER<br>Rating: 4.0</div>`)[0];
+                popup_09da31c7ad47edbc8f6452472d583852.setContent(html_402a11dfe12c24cdf67bc8b53f909a1d);
+            
+        
+
+        circle_marker_23910a66472aed3ffcab514322de0f50.bindPopup(popup_09da31c7ad47edbc8f6452472d583852)
+        ;
+
+        
+    
+    
+            circle_marker_23910a66472aed3ffcab514322de0f50.bindTooltip(
+                `<div>
+                     BRYAN MEDICAL CENTER
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_2253a46cf0df16513bc752428228a531 = L.circleMarker(
+                [44.0153880587764, -122.0794710952865],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_98ecf9ef918ab5e51e61d539ac4d30cc);
+        
+    
+        var popup_3fa80cfa516a913d924df1c97e02df93 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0642308ef046201af112e32a3b16f832 = $(`<div id="html_0642308ef046201af112e32a3b16f832" style="width: 100.0%; height: 100.0%;">CONCORD HOSPITAL<br>Rating: 4.0</div>`)[0];
+                popup_3fa80cfa516a913d924df1c97e02df93.setContent(html_0642308ef046201af112e32a3b16f832);
+            
+        
+
+        circle_marker_2253a46cf0df16513bc752428228a531.bindPopup(popup_3fa80cfa516a913d924df1c97e02df93)
+        ;
+
+        
+    
+    
+            circle_marker_2253a46cf0df16513bc752428228a531.bindTooltip(
+                `<div>
+                     CONCORD HOSPITAL
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_bc6908c856527a9676f5354bc5fc8af3 = L.circleMarker(
+                [41.6813662, -87.6205187],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_98ecf9ef918ab5e51e61d539ac4d30cc);
+        
+    
+        var popup_b9ed300b5ebc39078c0a2fadba0a4967 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_dc8d513768e6e097b3138199b079bc83 = $(`<div id="html_dc8d513768e6e097b3138199b079bc83" style="width: 100.0%; height: 100.0%;">HACKENSACK UNIVERSITY MEDICAL CENTER<br>Rating: 2.0</div>`)[0];
+                popup_b9ed300b5ebc39078c0a2fadba0a4967.setContent(html_dc8d513768e6e097b3138199b079bc83);
+            
+        
+
+        circle_marker_bc6908c856527a9676f5354bc5fc8af3.bindPopup(popup_b9ed300b5ebc39078c0a2fadba0a4967)
+        ;
+
+        
+    
+    
+            circle_marker_bc6908c856527a9676f5354bc5fc8af3.bindTooltip(
+                `<div>
+                     HACKENSACK UNIVERSITY MEDICAL CENTER
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_196eb4f74633ade108350ceb7d034049 = L.circleMarker(
+                [35.057761143367344, -106.61300247795918],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_98ecf9ef918ab5e51e61d539ac4d30cc);
+        
+    
+        var popup_6fab5c7f0eca0499c831c94e5d6ca170 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5b9f9f0eccf2d93477b264e69bd91649 = $(`<div id="html_5b9f9f0eccf2d93477b264e69bd91649" style="width: 100.0%; height: 100.0%;">UNM HOSPITAL<br>Rating: 1.0</div>`)[0];
+                popup_6fab5c7f0eca0499c831c94e5d6ca170.setContent(html_5b9f9f0eccf2d93477b264e69bd91649);
+            
+        
+
+        circle_marker_196eb4f74633ade108350ceb7d034049.bindPopup(popup_6fab5c7f0eca0499c831c94e5d6ca170)
+        ;
+
+        
+    
+    
+            circle_marker_196eb4f74633ade108350ceb7d034049.bindTooltip(
+                `<div>
+                     UNM HOSPITAL
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_6e879c7cc41ca333f513fbd369405436 = L.circleMarker(
+                [39.49818912551809, -119.77447480921963],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_98ecf9ef918ab5e51e61d539ac4d30cc);
+        
+    
+        var popup_71029293f1b289a5e2a2b6a3bfff8928 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_362158b1a01b8748ae7d0a090cbef5d9 = $(`<div id="html_362158b1a01b8748ae7d0a090cbef5d9" style="width: 100.0%; height: 100.0%;">RENOWN REGIONAL MEDICAL CENTER<br>Rating: 1.0</div>`)[0];
+                popup_71029293f1b289a5e2a2b6a3bfff8928.setContent(html_362158b1a01b8748ae7d0a090cbef5d9);
+            
+        
+
+        circle_marker_6e879c7cc41ca333f513fbd369405436.bindPopup(popup_71029293f1b289a5e2a2b6a3bfff8928)
+        ;
+
+        
+    
+    
+            circle_marker_6e879c7cc41ca333f513fbd369405436.bindTooltip(
+                `<div>
+                     RENOWN REGIONAL MEDICAL CENTER
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_27edbea15a28fc8ae966faa625bcd7b5 = L.circleMarker(
+                [42.68486241412758, -73.73429974887853],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_98ecf9ef918ab5e51e61d539ac4d30cc);
+        
+    
+        var popup_d847687c160a1e3c38dcd01a60889562 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2e88b8d37cb184c4a92bef57a4bc3133 = $(`<div id="html_2e88b8d37cb184c4a92bef57a4bc3133" style="width: 100.0%; height: 100.0%;">ALBANY MEMORIAL HOSPITAL<br>Rating: 2.0</div>`)[0];
+                popup_d847687c160a1e3c38dcd01a60889562.setContent(html_2e88b8d37cb184c4a92bef57a4bc3133);
+            
+        
+
+        circle_marker_27edbea15a28fc8ae966faa625bcd7b5.bindPopup(popup_d847687c160a1e3c38dcd01a60889562)
+        ;
+
+        
+    
+    
+            circle_marker_27edbea15a28fc8ae966faa625bcd7b5.bindTooltip(
+                `<div>
+                     ALBANY MEMORIAL HOSPITAL
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_63de184bc93cfdca9724606881a156bc = L.circleMarker(
+                [39.06000990512273, -84.3130869420491],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_98ecf9ef918ab5e51e61d539ac4d30cc);
+        
+    
+        var popup_51a24ed91dea68b2ef5afb3eac999761 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8d9f82c44706d4001229a643a7c88106 = $(`<div id="html_8d9f82c44706d4001229a643a7c88106" style="width: 100.0%; height: 100.0%;">MERCY HOSPITAL ANDERSON<br>Rating: 4.0</div>`)[0];
+                popup_51a24ed91dea68b2ef5afb3eac999761.setContent(html_8d9f82c44706d4001229a643a7c88106);
+            
+        
+
+        circle_marker_63de184bc93cfdca9724606881a156bc.bindPopup(popup_51a24ed91dea68b2ef5afb3eac999761)
+        ;
+
+        
+    
+    
+            circle_marker_63de184bc93cfdca9724606881a156bc.bindTooltip(
+                `<div>
+                     MERCY HOSPITAL ANDERSON
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_a2a3603f4041c2227f2699c6bf8115bf = L.circleMarker(
+                [36.14889540695538, -95.95537385091863],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_98ecf9ef918ab5e51e61d539ac4d30cc);
+        
+    
+        var popup_fc4287100ae121961d2771f4d9f98959 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1d7e2ca02119c7f9de70ef04c06ef227 = $(`<div id="html_1d7e2ca02119c7f9de70ef04c06ef227" style="width: 100.0%; height: 100.0%;">HILLCREST MEDICAL CENTER<br>Rating: 2.0</div>`)[0];
+                popup_fc4287100ae121961d2771f4d9f98959.setContent(html_1d7e2ca02119c7f9de70ef04c06ef227);
+            
+        
+
+        circle_marker_a2a3603f4041c2227f2699c6bf8115bf.bindPopup(popup_fc4287100ae121961d2771f4d9f98959)
+        ;
+
+        
+    
+    
+            circle_marker_a2a3603f4041c2227f2699c6bf8115bf.bindTooltip(
+                `<div>
+                     HILLCREST MEDICAL CENTER
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_d3ff75fba4e65faf65f94777d851264c = L.circleMarker(
+                [45.62364638688524, -121.21940744918032],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_98ecf9ef918ab5e51e61d539ac4d30cc);
+        
+    
+        var popup_6eb4fce03f6eb9e62968a4d08f00624b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6da4d3bfc0610f5de9afd3af06602d57 = $(`<div id="html_6da4d3bfc0610f5de9afd3af06602d57" style="width: 100.0%; height: 100.0%;">MID-COLUMBIA MEDICAL CENTER<br>Rating: 3.0</div>`)[0];
+                popup_6eb4fce03f6eb9e62968a4d08f00624b.setContent(html_6da4d3bfc0610f5de9afd3af06602d57);
+            
+        
+
+        circle_marker_d3ff75fba4e65faf65f94777d851264c.bindPopup(popup_6eb4fce03f6eb9e62968a4d08f00624b)
+        ;
+
+        
+    
+    
+            circle_marker_d3ff75fba4e65faf65f94777d851264c.bindTooltip(
+                `<div>
+                     MID-COLUMBIA MEDICAL CENTER
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_96e6c5fbcbd5fed3e3e5bab671408911 = L.circleMarker(
+                [41.40933689363296, -75.64679923632958],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_98ecf9ef918ab5e51e61d539ac4d30cc);
+        
+    
+        var popup_81e26a9774089f893246503e7b40327b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_408825ad7b0fef6b22d9122d7a88a5a3 = $(`<div id="html_408825ad7b0fef6b22d9122d7a88a5a3" style="width: 100.0%; height: 100.0%;">GEISINGER - COMMUNITY MEDICAL CENTER<br>Rating: 2.0</div>`)[0];
+                popup_81e26a9774089f893246503e7b40327b.setContent(html_408825ad7b0fef6b22d9122d7a88a5a3);
+            
+        
+
+        circle_marker_96e6c5fbcbd5fed3e3e5bab671408911.bindPopup(popup_81e26a9774089f893246503e7b40327b)
+        ;
+
+        
+    
+    
+            circle_marker_96e6c5fbcbd5fed3e3e5bab671408911.bindTooltip(
+                `<div>
+                     GEISINGER - COMMUNITY MEDICAL CENTER
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_00b2f12a9167a2748fd9671d937a6604 = L.circleMarker(
+                [61.584135523504926, -149.42834224459182],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_98ecf9ef918ab5e51e61d539ac4d30cc);
+        
+    
+        var popup_4d3d83c2db98f13fae36353286878ae4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_024133b0af7c09f262bedd7e7b38cd8a = $(`<div id="html_024133b0af7c09f262bedd7e7b38cd8a" style="width: 100.0%; height: 100.0%;">PRESBYTERIAN COMMUNITY HOSP<br>Rating: 3.0</div>`)[0];
+                popup_4d3d83c2db98f13fae36353286878ae4.setContent(html_024133b0af7c09f262bedd7e7b38cd8a);
+            
+        
+
+        circle_marker_00b2f12a9167a2748fd9671d937a6604.bindPopup(popup_4d3d83c2db98f13fae36353286878ae4)
+        ;
+
+        
+    
+    
+            circle_marker_00b2f12a9167a2748fd9671d937a6604.bindTooltip(
+                `<div>
+                     PRESBYTERIAN COMMUNITY HOSP
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_e4dd515ac5bc8db858751d9edf664bce = L.circleMarker(
+                [34.0346643, -118.44839],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_98ecf9ef918ab5e51e61d539ac4d30cc);
+        
+    
+        var popup_55e0f6fa85450e8f7e34da36a0527c4f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3c3bdc9f23692724eb638566f5c2c81d = $(`<div id="html_3c3bdc9f23692724eb638566f5c2c81d" style="width: 100.0%; height: 100.0%;">MEMORIAL HOSPITAL OF RHODE ISLAND<br>Rating: 3.0</div>`)[0];
+                popup_55e0f6fa85450e8f7e34da36a0527c4f.setContent(html_3c3bdc9f23692724eb638566f5c2c81d);
+            
+        
+
+        circle_marker_e4dd515ac5bc8db858751d9edf664bce.bindPopup(popup_55e0f6fa85450e8f7e34da36a0527c4f)
+        ;
+
+        
+    
+    
+            circle_marker_e4dd515ac5bc8db858751d9edf664bce.bindTooltip(
+                `<div>
+                     MEMORIAL HOSPITAL OF RHODE ISLAND
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_d807eaa6dc6388be1870d08deeecee02 = L.circleMarker(
+                [34.91155373262896, -81.00701368116843],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_98ecf9ef918ab5e51e61d539ac4d30cc);
+        
+    
+        var popup_c345c6c9df7b518fa0489af4e308ec04 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1e437062dcf6ac1a3ab93bcb252641f7 = $(`<div id="html_1e437062dcf6ac1a3ab93bcb252641f7" style="width: 100.0%; height: 100.0%;">PIEDMONT MEDICAL CENTER<br>Rating: 1.0</div>`)[0];
+                popup_c345c6c9df7b518fa0489af4e308ec04.setContent(html_1e437062dcf6ac1a3ab93bcb252641f7);
+            
+        
+
+        circle_marker_d807eaa6dc6388be1870d08deeecee02.bindPopup(popup_c345c6c9df7b518fa0489af4e308ec04)
+        ;
+
+        
+    
+    
+            circle_marker_d807eaa6dc6388be1870d08deeecee02.bindTooltip(
+                `<div>
+                     PIEDMONT MEDICAL CENTER
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_744a7888c8b7d4dde8e334041c2c7271 = L.circleMarker(
+                [44.913161075149105, -97.10058158091451],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_98ecf9ef918ab5e51e61d539ac4d30cc);
+        
+    
+        var popup_3ae0d8c847c642d73d2bac4b3f0c1dfc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c234724aaed58118c1134b5a549eca96 = $(`<div id="html_c234724aaed58118c1134b5a549eca96" style="width: 100.0%; height: 100.0%;">PRAIRIE LAKES HOSPITAL<br>Rating: 3.0</div>`)[0];
+                popup_3ae0d8c847c642d73d2bac4b3f0c1dfc.setContent(html_c234724aaed58118c1134b5a549eca96);
+            
+        
+
+        circle_marker_744a7888c8b7d4dde8e334041c2c7271.bindPopup(popup_3ae0d8c847c642d73d2bac4b3f0c1dfc)
+        ;
+
+        
+    
+    
+            circle_marker_744a7888c8b7d4dde8e334041c2c7271.bindTooltip(
+                `<div>
+                     PRAIRIE LAKES HOSPITAL
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_64b28193d4cdc07cb6309de12464082d = L.circleMarker(
+                [36.13735394769585, -82.4237596889401],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_98ecf9ef918ab5e51e61d539ac4d30cc);
+        
+    
+        var popup_ea387fdaf8d68afdfc100270cfd54e83 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a3bc61ee2f9b23388e4c836af08de9b1 = $(`<div id="html_a3bc61ee2f9b23388e4c836af08de9b1" style="width: 100.0%; height: 100.0%;">UNICOI COUNTY MEMORIAL HOSPITAL<br>Rating: 3.0</div>`)[0];
+                popup_ea387fdaf8d68afdfc100270cfd54e83.setContent(html_a3bc61ee2f9b23388e4c836af08de9b1);
+            
+        
+
+        circle_marker_64b28193d4cdc07cb6309de12464082d.bindPopup(popup_ea387fdaf8d68afdfc100270cfd54e83)
+        ;
+
+        
+    
+    
+            circle_marker_64b28193d4cdc07cb6309de12464082d.bindTooltip(
+                `<div>
+                     UNICOI COUNTY MEMORIAL HOSPITAL
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_71d669a8ed1a4ea1c06659458f0fc423 = L.circleMarker(
+                [31.779304197979798, -106.50070956767676],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_98ecf9ef918ab5e51e61d539ac4d30cc);
+        
+    
+        var popup_d0489bb4f7c23d5bfaf6f16cb0eb407b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d4ac433edffe3b27457ea3a7a60d710f = $(`<div id="html_d4ac433edffe3b27457ea3a7a60d710f" style="width: 100.0%; height: 100.0%;">PROVIDENCE MEMORIAL HOSPITAL<br>Rating: 1.0</div>`)[0];
+                popup_d0489bb4f7c23d5bfaf6f16cb0eb407b.setContent(html_d4ac433edffe3b27457ea3a7a60d710f);
+            
+        
+
+        circle_marker_71d669a8ed1a4ea1c06659458f0fc423.bindPopup(popup_d0489bb4f7c23d5bfaf6f16cb0eb407b)
+        ;
+
+        
+    
+    
+            circle_marker_71d669a8ed1a4ea1c06659458f0fc423.bindTooltip(
+                `<div>
+                     PROVIDENCE MEMORIAL HOSPITAL
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_23dbbadd681013ba481fa05661b12b0f = L.circleMarker(
+                [40.26720398496932, -111.65992125092025],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_98ecf9ef918ab5e51e61d539ac4d30cc);
+        
+    
+        var popup_b30ecc7beab8944380663c2f0ba5a3cb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b9a42362be21977f8e5ab682db71b965 = $(`<div id="html_b9a42362be21977f8e5ab682db71b965" style="width: 100.0%; height: 100.0%;">UTAH VALLEY HOSPITAL<br>Rating: 3.0</div>`)[0];
+                popup_b30ecc7beab8944380663c2f0ba5a3cb.setContent(html_b9a42362be21977f8e5ab682db71b965);
+            
+        
+
+        circle_marker_23dbbadd681013ba481fa05661b12b0f.bindPopup(popup_b30ecc7beab8944380663c2f0ba5a3cb)
+        ;
+
+        
+    
+    
+            circle_marker_23dbbadd681013ba481fa05661b12b0f.bindTooltip(
+                `<div>
+                     UTAH VALLEY HOSPITAL
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_c5b9bde595a6d62b0834262fe0f01103 = L.circleMarker(
+                [36.94509776420455, -82.63258185170454],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_98ecf9ef918ab5e51e61d539ac4d30cc);
+        
+    
+        var popup_7bea6336d955c2375fa22aa5efd95a1e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4c8af0523388db96a542f62aa759a383 = $(`<div id="html_4c8af0523388db96a542f62aa759a383" style="width: 100.0%; height: 100.0%;">NORTON COMMUNITY HOSPITAL<br>Rating: 4.0</div>`)[0];
+                popup_7bea6336d955c2375fa22aa5efd95a1e.setContent(html_4c8af0523388db96a542f62aa759a383);
+            
+        
+
+        circle_marker_c5b9bde595a6d62b0834262fe0f01103.bindPopup(popup_7bea6336d955c2375fa22aa5efd95a1e)
+        ;
+
+        
+    
+    
+            circle_marker_c5b9bde595a6d62b0834262fe0f01103.bindTooltip(
+                `<div>
+                     NORTON COMMUNITY HOSPITAL
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_ef461908ffe3ef86aa3951331d589736 = L.circleMarker(
+                [35.01381363769982, -106.3607981046438],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_98ecf9ef918ab5e51e61d539ac4d30cc);
+        
+    
+        var popup_43b67dfcc9c67538fabc0f73d9ff2ea0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_aeb15cfe3dfee0f2ebf1635a04f4dec5 = $(`<div id="html_aeb15cfe3dfee0f2ebf1635a04f4dec5" style="width: 100.0%; height: 100.0%;">CENTRAL VERMONT MEDICAL CENTER<br>Rating: 4.0</div>`)[0];
+                popup_43b67dfcc9c67538fabc0f73d9ff2ea0.setContent(html_aeb15cfe3dfee0f2ebf1635a04f4dec5);
+            
+        
+
+        circle_marker_ef461908ffe3ef86aa3951331d589736.bindPopup(popup_43b67dfcc9c67538fabc0f73d9ff2ea0)
+        ;
+
+        
+    
+    
+            circle_marker_ef461908ffe3ef86aa3951331d589736.bindTooltip(
+                `<div>
+                     CENTRAL VERMONT MEDICAL CENTER
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_b2cb555bdbcaaed24eac146e4805b3f5 = L.circleMarker(
+                [47.7183648576517, -122.34477978061383],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_98ecf9ef918ab5e51e61d539ac4d30cc);
+        
+    
+        var popup_55886f4fe600f20db14cfbcac0979ad3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cb0aee5e351b2778d1c2f30c71e694a0 = $(`<div id="html_cb0aee5e351b2778d1c2f30c71e694a0" style="width: 100.0%; height: 100.0%;">NORTHWEST HOSPITAL<br>Rating: 4.0</div>`)[0];
+                popup_55886f4fe600f20db14cfbcac0979ad3.setContent(html_cb0aee5e351b2778d1c2f30c71e694a0);
+            
+        
+
+        circle_marker_b2cb555bdbcaaed24eac146e4805b3f5.bindPopup(popup_55886f4fe600f20db14cfbcac0979ad3)
+        ;
+
+        
+    
+    
+            circle_marker_b2cb555bdbcaaed24eac146e4805b3f5.bindTooltip(
+                `<div>
+                     NORTHWEST HOSPITAL
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_fcaff1fa49474e2d32e6cd2abb24d527 = L.circleMarker(
+                [44.51740473105023, -89.57486165753424],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_98ecf9ef918ab5e51e61d539ac4d30cc);
+        
+    
+        var popup_4b9da8d6b212d9c72b123ae56e8bbc12 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e841f20afb209e922ff22b7517fa39b1 = $(`<div id="html_e841f20afb209e922ff22b7517fa39b1" style="width: 100.0%; height: 100.0%;">MINISTRY ST MICHAELS HOSPITAL OF STEVENS POINT<br>Rating: 4.0</div>`)[0];
+                popup_4b9da8d6b212d9c72b123ae56e8bbc12.setContent(html_e841f20afb209e922ff22b7517fa39b1);
+            
+        
+
+        circle_marker_fcaff1fa49474e2d32e6cd2abb24d527.bindPopup(popup_4b9da8d6b212d9c72b123ae56e8bbc12)
+        ;
+
+        
+    
+    
+            circle_marker_fcaff1fa49474e2d32e6cd2abb24d527.bindTooltip(
+                `<div>
+                     MINISTRY ST MICHAELS HOSPITAL OF STEVENS POINT
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_146ff97718060decb3323fb996716fad = L.circleMarker(
+                [39.64594673913044, -79.9615314173913],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_98ecf9ef918ab5e51e61d539ac4d30cc);
+        
+    
+        var popup_0ed46661e6923e344c1b5d62d0565822 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_901c73275f0299d857bf06c38791a71e = $(`<div id="html_901c73275f0299d857bf06c38791a71e" style="width: 100.0%; height: 100.0%;">WEST VIRGINIA UNIVERSITY HOSPITALS<br>Rating: 2.0</div>`)[0];
+                popup_0ed46661e6923e344c1b5d62d0565822.setContent(html_901c73275f0299d857bf06c38791a71e);
+            
+        
+
+        circle_marker_146ff97718060decb3323fb996716fad.bindPopup(popup_0ed46661e6923e344c1b5d62d0565822)
+        ;
+
+        
+    
+    
+            circle_marker_146ff97718060decb3323fb996716fad.bindTooltip(
+                `<div>
+                     WEST VIRGINIA UNIVERSITY HOSPITALS
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_b1c5e08034abfaab8d058037213b93b5 = L.circleMarker(
+                [44.30333363746304, -105.5128606416913],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_98ecf9ef918ab5e51e61d539ac4d30cc);
+        
+    
+        var popup_d6d978582d80875b23f589f1f899a999 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_101a24a352d26abbc58a4b85d8a31db8 = $(`<div id="html_101a24a352d26abbc58a4b85d8a31db8" style="width: 100.0%; height: 100.0%;">CAMPBELL COUNTY MEMORIAL HOSPITAL<br>Rating: 2.0</div>`)[0];
+                popup_d6d978582d80875b23f589f1f899a999.setContent(html_101a24a352d26abbc58a4b85d8a31db8);
+            
+        
+
+        circle_marker_b1c5e08034abfaab8d058037213b93b5.bindPopup(popup_d6d978582d80875b23f589f1f899a999)
+        ;
+
+        
+    
+    
+            circle_marker_b1c5e08034abfaab8d058037213b93b5.bindTooltip(
+                `<div>
+                     CAMPBELL COUNTY MEMORIAL HOSPITAL
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+</script>
+</html>
